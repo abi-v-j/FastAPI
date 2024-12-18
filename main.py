@@ -22,3 +22,10 @@ app.add_middleware(
 @app.get("/")
 async def Example():
     return { "message": "Hai Jithin How do you do"}
+
+
+
+
+@app.get("/user")
+async def Example():
+    return { "message": "Hai Jithin How do you dooooo"}
