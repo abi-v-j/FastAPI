@@ -19,6 +19,6 @@ app.add_middleware(
 )
 
 
-@app.get("/users/")
+@app.get("/")
 async def Example():
     return { "message": "Hai Jithin How do you do"}
